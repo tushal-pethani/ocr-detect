@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 import easyocr
 import numpy as np
 import cv2
-import io
 
 app = FastAPI()
 
